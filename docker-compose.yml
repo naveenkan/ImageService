@@ -30,6 +30,6 @@ services:
     networks:
       - imageservice-net    
     ports:
-      - '23445:23443'
+      - '23445:23445'
     depends_on:
       - kafka-server1
